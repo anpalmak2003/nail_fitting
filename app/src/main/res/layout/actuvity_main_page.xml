@@ -74,23 +74,21 @@
         app:srcCompat="@drawable/_082083" />
 
     <ImageButton
-        android:elevation="2dp"
         android:id="@+id/imageButton20"
         android:layout_width="86dp"
         android:layout_height="79dp"
+        android:elevation="2dp"
         android:scaleType="fitStart"
         app:srcCompat="@drawable/img_194581"
-        tools:layout_editor_absoluteX="255dp"
-        tools:layout_editor_absoluteY="649dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="200dp"
+        tools:layout_editor_absoluteY="501dp" />
 
-    <fragment
-        android:id="@+id/fragment"
-        android:name="ru.anpalmak.nailfiffing.list_designs"
+    <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="191dp"
-        tools:layout_editor_absoluteY="293dp" />
+        tools:layout_editor_absoluteX="178dp"
+        tools:layout_editor_absoluteY="376dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
