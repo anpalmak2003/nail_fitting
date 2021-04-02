@@ -17,10 +17,10 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme.ObjectDetection">>
+        android:theme="@style/Theme.NailFiffing">>
 
         <activity
-            android:name=".DetectorActivity"
+            android:name=".Draw_design_avtivity"
             android:label="@string/tfe_od_app_name"
             android:screenOrientation="portrait">
             <intent-filter>
